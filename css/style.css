@@ -1663,11 +1663,14 @@ textarea.form-control {
 }
 
 .ftco-footer {
-  background: #121212;
+  background: url('../images/pp_sg_bg_02.jpg');
+  background-size: 100%;
+  color:#fff;
   padding: 7em 0;
   font-size: 15px;
   font-weight: 400;
 }
+
 
 .ftco-footer .footer-widget h3 {
   font-size: 20px;
