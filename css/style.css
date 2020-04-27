@@ -170,7 +170,7 @@ textarea.form-control {
 .site-header .site-logo {
   line-height: 0;
   padding: 2px 10px;
-  border: 2px solid #000;
+  border: 2px solid transparent;
   color: #000;
   font-size: 30px;
   font-weight: bold;
@@ -215,14 +215,15 @@ textarea.form-control {
   display: inline-block;
   position: relative;
   padding: 2px 10px;
-  border: 2px solid #000;
+  border: 2px solid transparent;
   color: #fff;
-  background: #000;
+  background: transparent;
   font-size: 30px;
 }
 
 .site-header.scrolled .site-nav-toggle {
   top: -5px !important;
+  display: none !important;
 }
 
 .site-header.awake {
@@ -396,7 +397,7 @@ textarea.form-control {
 
 @media (min-width: 992px) {
   .ftco-46 .ftco-46-row > div {
-    width: 33.33333%;
+    width: 50%;
   }
 }
 
@@ -1087,7 +1088,7 @@ textarea.form-control {
   display: block !important;
   float: right;
   right: 0;
-  display: none;
+  display: none !important;
   border-bottom: none !important;
 }
 
