@@ -412,8 +412,9 @@ textarea.form-control {
 .ftco-46 .ftco-46-heading {
   text-transform: uppercase;
   line-height: 1.5;
-  font-size: 30px;
-  margin-bottom: 30px;
+  font-size: 45px;
+  margin: 40px;
+  font-family: ad_polaquitaregular;
 }
 
 .ftco-46 .ftco-46-image {
@@ -572,6 +573,7 @@ textarea.form-control {
   transition: .3s all ease;
   color: #000;
   font-weight: 900;
+  font-family: ad_polaquitaregular;
 }
 
 .btn-link span {
