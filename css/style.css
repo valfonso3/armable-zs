@@ -160,6 +160,7 @@ textarea.form-control {
 
 /* Site Header */
 .site-header {
+  display: none;
   padding: 3em 30px;
   position: absolute;
   top: 0;
@@ -192,6 +193,7 @@ textarea.form-control {
 .site-header.scrolled {
   position: fixed;
   padding: 1em 30px;
+  display: block;
   top: 0;
   background: #fff;
   -webkit-transition: .0s all ease;
