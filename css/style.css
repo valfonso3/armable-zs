@@ -195,7 +195,7 @@ textarea.form-control {
   padding: 1em 30px;
   display: block;
   top: 0;
-  background: #fff;
+  background: #ffffffec;
   -webkit-transition: .0s all ease;
   -o-transition: .0s all ease;
   transition: .0s all ease;
@@ -1667,7 +1667,7 @@ textarea.form-control {
 }
 
 .ftco-footer {
-  background: url('../images/Banner-04_-sin-cuadro-verde.jpg');
+  background: url('../images/TEXTURA-PAPEL-01.jpg');
   background-size: 100%;
   color:#fff;
   padding: 7em 0;
