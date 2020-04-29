@@ -1799,3 +1799,57 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+        .titulos{
+            display:none;
+        }
+        .header{
+            display:none;
+        }
+        .ph{
+              display:none;
+          }
+          .pc{
+      
+              display:block;
+          }
+    }
+           
+      @media screen and (max-width: 320px) { 
+          .titulos{
+              display:block;   
+              }
+          .cita{
+              display:block;
+          }
+          .pc{
+      
+              display:none;
+          }
+          }
+        
+    @media screen and (max-width: 480px) { 
+          .titulos{
+              display:block;   
+              }
+          .ph{
+              display:block;
+          }
+          .pc{
+      
+              display:none;
+          }
+          }
+      @media screen and (max-width: 736px) { 
+          .titulos{
+              display:block;   
+              }
+          .ph{
+              display:block;
+              
+          }
+          .pc{
+      
+              display:none;
+          }}
